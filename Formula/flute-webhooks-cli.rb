@@ -1,14 +1,14 @@
 class FluteWebhooksCli < Formula
   desc "Terminal UI and CLI for managing Flute webhook endpoints"
   homepage "https://github.com/getflute/flute-webhooks-cli"
-  version "0.5.1"
+  version "0.5.2"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/getflute/flute-webhooks-cli/releases/download/v0.5.1/flute-webhooks-cli-aarch64-apple-darwin.tar.xz"
-    sha256 "d7d9d203d0a656c810562e6b3171493cd44aba4751127d8d54f9f5b2e57a4175"
+    url "https://github.com/getflute/flute-webhooks-cli/releases/download/v0.5.2/flute-webhooks-cli-aarch64-apple-darwin.tar.xz"
+    sha256 "aa06bdeffe73d95f00c21bb3afb4442787a98a2ab8179658775245d7dba022a7"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/getflute/flute-webhooks-cli/releases/download/v0.5.1/flute-webhooks-cli-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "663a995016a636cb628d278da5f77f9db3ba04194d3b29ba42f5050fbc6053d3"
+    url "https://github.com/getflute/flute-webhooks-cli/releases/download/v0.5.2/flute-webhooks-cli-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "f84893a57c9b14142c01b1d742ccb8d52f1aeccdb737608b9a1c05a54ac7d71a"
   end
   license "MIT"
 
